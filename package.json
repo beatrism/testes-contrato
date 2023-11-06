@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "test:healthCheck": "jest --testNamePattern=HealthCheck",
-    "test:Adresses": "jest --testNamePattern=Adresses",
+    "test:Addresses": "jest --testNamePattern=Addresses",
     "test:Consumers": "jest --testNamePattern=Consumers",
     "test:Contrato": "jest --testNamePattern=Contrato",
 
