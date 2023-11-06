@@ -6,7 +6,7 @@ describe('adresses resource', () => {
         token = await getAcessToken('admin', 'admin')
     })
 
-    it('(Adresses) should list adresses', async () => {
+    it('(Addresses) should list adresses', async () => {
         let token = await getAcessToken()
         await req(API_URL)
             .get('/adresses')
